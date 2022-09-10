@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+/* Header Styling */
+
+#header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 10px;
+}
+
+.left {
+    display: flex;
+}
+
+.links {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.left img {
+    max-width: 50px;
+    height: auto;
+}
+
+#header div .header-logo img {
+    max-width: 50px;
+
+}
+
+/* Closing Header Styling */
+
+
+/* Content 1 Styling */
+
+#content-1 {
+    display: flex; 
+    justify-content: space-around;
+    background-color: #1f2937;
+    padding: 100px;
+}
+
+.text-1A {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.text-1B {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#content-1 button {
+    width: 100px;
+    padding: 9px;
+    border-radius: 7px;
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+}
+
+.left-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 15px;
+    width: 480px;
+    height: auto;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.img-1 img {
+    max-width: 480px;
+    height: auto;
+    border-radius: 20px;
+}
+
+/* Closing Content 1 Styling */
+
+
+/* Content 2 Styling */
+
+#content-2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.title-2 {
+    margin-bottom: 32px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.box-container div img {
+    width: 200px;
+    border: 5px solid #1f2937;
+    border-radius: 100px;
+}
+
+/* Closing Content 2 Styling */
+
+
+/* Content 3 Styling */
+
+#content-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 100px;
+}
